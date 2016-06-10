@@ -47,3 +47,9 @@ This boilerplate is brought to you and maintained by the following people:
 ## License
 
 [MIT](LICENSE)
+
+## Pokeindia Owner
+
+[![Paul71](https://avatars0.githubusercontent.com/u/18008891?v=3&u=68813054c768229033012e3c9a0e1cc0e800b0f8&s=140)](https://github.com/KewlStatics)
+:---:|:---:|:---:|:---:|:---:
+[Paul71](https://github.com/KewlStatics)
