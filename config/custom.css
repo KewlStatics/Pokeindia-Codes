@@ -1,0 +1,555 @@
+body {
+    background:url("https://image.freepik.com/free-vector/map-of-india-in-textured-old-background_1017-1558.jpg") !important;
+    background-color: #344B6C !important;
+    color: #FFF;
+  }
+     
+  .ps-room.ps-room-light.scrollable, #header {
+    font-family: helvetica,arial,sans-serif;
+    background: rgba(0, 0, 0, 0.9);
+    color: #F2F2F2;
+  }
+
+  .mainmenufooter small:after{
+    content:""; 
+    font-size:9pt; 
+    color:#cccccc; 
+    text-shadow:0 1px black; 
+    position:absolute; 
+    size:6px; 
+    left:230px; 
+    top:21px; 
+    width: 300px;
+  }
+  
+  .roomlist {
+    font-family: helvetica,arial,sans-serif;
+    color: #33cc33;
+  }
+  
+  .roomlist a.ilink {
+    border: 1px solid #000;
+    color: #33cc33;
+    background: #33cc33;
+  }
+  
+  .roomlist a.ilink:hover {
+    border: 1px solid #000;
+    color: #1D90FF;
+    background: #33cc33;
+  }
+  
+  .roomlist a.ilink small {
+    color: #000;
+  }
+  
+  
+  .mainmenufooter a{
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 1px 0px #000;
+    font-family: helvetica,arial,times new roman;
+  }
+  
+  .mainmenufooter a:hover {
+    color: #33cc33;
+    text-decoration: none;
+  }
+  
+  .header .logo {
+    opacity: 0;
+  }
+  
+  .battleform label {
+    background: url("http://i.imgur.com/yFWeHx0.png") no-repeat scroll left center transparent !important;
+    padding: 4px;
+    opacity:0.9;
+    color: #FFF;
+  }
+  
+  .menugroup {
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .mainmenu .menugroup:nth-child(1) .button, .mainmenu .menugroup:nth-child(2) p:nth-child(1) .button, .mainmenu .menugroup:nth-child(2) p:nth-child(2) .button, .mainmenu .menugroup:nth-child(2) p:nth-child(3) .button, .mainmenu .menugroup:nth-child(3) p:nth-child(1) .button, .mainmenu .menugroup:nth-child(3) p:nth-child(2) .button {
+    background: none repeat scroll 0% 0% #33cc33;
+    color: black;
+    box-shadow: orange orange inset, orange orange;
+    border-color: white;
+    font: 13px helvetica,arial,sans-serif;
+    width: 230px;
+  }
+  
+  .mainmenu .menugroup:nth-child(1) .button:hover, .mainmenu .menugroup:nth-child(2) p:nth-child(1) .button:hover, .mainmenu .menugroup:nth-child(2) p:nth-child(2) .button:hover, .mainmenu .menugroup:nth-child(2) p:nth-child(3) .button:hover, .mainmenu .menugroup:nth-child(3) p:nth-child(1) .button:hover, .mainmenu .menugroup:nth-child(3) p:nth-child(2) .button:hover {
+    background: none repeat scroll 0% 0% orange;
+    color: black;
+    box-shadow: 0px 1px 0px 0px #5C5C5C inset, 0px 2px 3px rgba(0, 0, 0, 0.2);
+    border-color: orange;
+  } 
+  
+  .select, .select:disabled {
+    border-color: #212121;
+    border-top-left-radius:0px;
+  }
+  
+  .select:hover {
+    color: #000;
+  }
+  
+  .chat-log, .pm-log, .battle-log {
+    font: 11px helvetica,arial,times new roman;
+    background:url("http://i.imgur.com/Q8vHT0Y.png") repeat;
+  }
+  
+  .chat-log-add, .battle-log-add {
+    background: green;
+  }
+  
+  .pm-log-add {
+    background:orange;
+  }
+  
+  .userlist li button {
+    font: 12px helvetica,arial,sans-serif;
+    text-shadow: 1px 1px orange;
+  }
+  
+  .userlist li button:hover {
+    background: red;
+  }
+  
+  .userlist {
+    background: orange;
+    border-right: 1px solid #3C3C3C;
+  }
+  
+  .userbar .username {
+    font: 15px helvetica,arial,times new roman;
+    font-weight: bold;
+  }
+  
+  .userbar .username:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  a {
+    color:white;
+    text-decoration:none;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+    
+  a:hover {
+    color:#0080FF;
+    text-decoration: underline;
+  }
+  
+  .ps-popup {
+    background:rgba(78, 78, 78, 0.95);
+    font: 14px helvetica,arial,sans-serif;
+    color: #FFF;
+    border-color:blue;
+  }
+  
+  .popupmenu button {
+    box-shadow: none;
+    color: orange;
+  }
+  
+  .popupmenu button:hover {
+    box-shadow: none;
+    color: #FFF;
+    background:rgba(78, 78, 78, 1);
+  }
+  
+  .popupmenu button.sel:hover {
+    padding: 0px 3px;
+    border: 1px solid #AAA;
+    background:rgba(65, 65, 65, 1);
+  }
+  
+  .ps-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+    
+  .chatbox label {
+    font: 12px helvetica,arial,times new roman;
+    text-shadow: 1px 1px green;
+  }
+  
+  a.ilink {
+    /*font-style: italic;*/
+    text-decoration: none;
+    color: #C9C9C9;
+  }
+  
+   a.ilink:hover {
+    color: #929292;
+  }
+  
+  .popupmenu h3 {
+    color: #1D90FF;
+  }
+  
+  .broadcast-red {
+    background: none repeat scroll 0% 0% #EC5C4D;
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 10pt;
+  }
+  
+  .broadcast-blue {
+    background: none repeat scroll 0% 0% #8FA6B3;
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 10pt;
+  }
+  
+  .broadcast-green {
+    background: none repeat scroll 0% 0% #9BB38F;
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 10pt;
+  }
+  
+  .pm-window h3 {
+    border: 1px solid #212121;
+    color: #FFF;
+    background:rgba(0, 0, 0, 0.7);
+    font-family: helvetica,arial,sans-serif;
+  }
+  
+  .pm-window h3:hover, .pm-window.focused h3, .pm-window.focused h3:hover {
+    border: 1px solid #212121;
+    color: #1D90FF;
+    background:rgba(0, 0, 0, 0.8);
+    font-family: helvetica,arial,sans-serif;
+  }
+  
+  .message-pm {
+    color: #000;
+    font-style: normal;
+    background: #33cc33;
+  }
+  
+  .revealed {
+    color: #FF0000;
+  }
+  
+  .maintabbarbottom {
+    background: #1D90FF;
+    border: 1px solid #000;
+    box-shadow: none;
+  }
+  
+  .tabbar a.button.cur, .tabbar a.button.cur:hover {
+    color: #FFF;
+    background: #1D90FF;
+    border: 1px solid #000;
+    font-family: helvetica,arial,sans-serif;
+    text-shadow: none;
+  }
+  .roomlist a.ilink:havor {
+  background: #63D1F4 url("http://i.imgur.com/v30pHLe.gifv") no-repeat;
+  background-position: 300px -9px;
+  border-color: #000000;
+  color: #000000;
+  text-shadow: none;
+  }
+  
+  .tabbar a.button {
+    color: #000;
+    background:#FFF;
+    border: 1px solid #000;
+    font-family: helvetica,arial,sans-serif;
+    text-shadow: none;
+  }
+  
+  .tabbar a.button:hover {
+    color: #000;
+    background: #C9C9C9;
+    border: 1px solid #000;
+    font-family: helvetica,arial,sans-serif;
+    text-shadow: none;
+  }
+  
+  button {
+    border: 1px solid #212121;
+    background: none repeat scroll 0% 0% #474747;
+    color: #FFF;
+    box-shadow: 0px 1px 0px 0px #5C5C5C inset, 0px 2px 3px rgba(0, 0, 0, 0.2);
+    font: 12px helvetica,arial,sans-serif;
+  }
+  
+  button:hover {
+    color: #D8D8D8;
+  }
+  
+    .tournament-bracket {
+    font-size: 8pt;
+    background:url("http://i.imgur.com/Q8vHT0Y.png");
+    opacity:.8;
+  }
+
+  .tournament-title {
+    background:#FFF;
+    color:#000;
+  }
+  
+  .tournament-status, .tournament-toggle {
+  color: #FFF;
+    background: #464646;
+  }
+  
+  .tournament-tools {
+    padding: 10px;
+    border-top: 1px solid #AAA;
+    background:url("http://i.imgur.com/Q8vHT0Y.png");
+  }
+  
+    .regular-button {
+    box-shadow: 0px 1px 0px 0px #FFFFFF inset, 0px 2px 3px rgba(0, 0, 0, 0.4);
+    border: 1px solid #A8A8A8;
+    background: #EEEEEE;
+    color: #000;
+  }
+
+  .regular-button:hover {
+    box-shadow: 0px 1px 0px 0px #FFFFFF inset, 0px 2px 3px rgba(0, 0, 0, 0.4);
+    border: 1px solid #A8A8A8;
+    background: #DBDBDB;
+    color: #000;
+  }
+
+  .blue-button{
+    border: 1px solid #474747;
+    color: #474747;
+    background: #6F9BB5;
+    box-shadow: 0px 1px 0px 0px #92B0C1 inset, 0px 2px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .blue-button:hover {
+    border: 1px solid #474747;
+    color: #474747;
+    background: #7CACC7;
+    box-shadow: 0px 1px 0px 0px #92B0C1 inset, 0px 2px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .LV-button{
+    border: 1px solid #212121;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 1px 0px 0px #414141 inset, 0px 2px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .LV-button:hover {
+    border: 1px solid #212121;
+    color: #1D90FF;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 1px 0px 0px #414141 inset, 0px 2px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .closebutton, .minimizebutton {
+    color: #F2F2F2;
+  }
+  
+  .minimizebutton:hover {
+    color: #FFDD7D;
+    text-decoration: none;
+  }
+  
+  .closebutton:hover {
+    color:#FF827D;
+    text-decoration: none;
+  }
+  
+  .setchart-nickname {
+    background: #1D90FF;
+  }
+  
+  .setmenu button {
+    background:rgba(29, 144, 255, 0.3);
+    color: #FFF;
+  }
+  
+  .setmenu button:hover {
+    background:rgba(29, 144, 255, 0.5);
+    color: #FFF;
+  }
+  
+  .setchart {
+    background:#1D90FF;
+  }
+
+  .utilichart .movenamecol {
+    color: #FFF;
+    font: 12px helvetica,arial,sans-serif;
+  }
+  
+  .teambuilder-results h3, .teambuilder-results .utilichart h3 {
+    background: rgba(0, 0, 0, 0.95);
+    color: #FFF;
+    border: 1px solid 212121;
+    box-shadow: none;
+  }
+  
+  .teambar button {
+    background: #474747;
+    color: #FFF;
+  }
+  
+  .teambar button:hover {
+    background: #2F2F2F;
+    color: #FFF;
+  }
+  
+  .teambar button:disabled, .teambar button:disabled:hover, .teambar button:disabled:active {
+    background: #474747;
+    color: #FFF;
+  }
+  
+  .utilichart .namecol {
+    color: #FFF;
+  }
+  
+  .switchmenu button, .movemenu button {
+    border: 3px solid #222222;
+    color: #000;
+  }
+  
+  .switchmenu button:hover, .movemenu button:hover {
+    border: 3px solid #222222;
+    color: #222222;
+  }
+  
+  .switchselect button:hover {
+    color: #458;
+  }
+  
+  .moveselect button:hover {
+    color: #842;
+  }
+  
+  .ps-room.ps-room-opaque {
+    background: green;
+    color: orange;
+  }
+  
+  .battle-log h2 {
+    background:#3C3C3C;
+    color: #FFF;
+    border: 1px solid #212121;
+  }
+  
+  .battle-log .chat strong {
+    color: #0080FF;
+  }
+  
+  .leftbar {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  .rightbar {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .ps-room .battle-controls {
+    background: transparent !important;
+  }
+  
+  
+  .pm-window h3 {
+    border-color: #336251;
+    background: rgba(51, 98, 81, 0.6) url("http://i.imgur.com/5tV9X52.png") bottom right no-repeat;
+    background-position: 200px;
+    color: #E5FFF6;
+    text-shadow: 0px -1px 0px #336251;
+  }
+  
+  .pm-window h3:hover {
+    background: rgba(51, 98, 81, 0.6) url("http://i.imgur.com/5tV9X52.png") bottom right no-repeat;
+    background-position: 200px;
+    color: #CBEBE0;
+  }
+  
+  .pm-window h3 small {
+    color: #B2DBCD;
+  }
+  
+  .pm-window.focused h3, .pm-window.focused h3:hover {
+    border-color: #336251;
+    background: rgba(51, 98, 81, 0.8) url("http://i.imgur.com/k1v7Evr.png?1") bottom right no-repeat;
+    background-position: 200px;
+    color: #E5FFF6;
+    text-shadow: 0px -1px 0px #336251;
+  }
+  
+  .pm-window h3:hover .minimizebutton, .pm-window h3 .closebutton, .pm-window h3 .minimizebutton {
+    color: #D3F5E8;
+  }
+  
+  .pm-window h3 .closebutton:hover {
+    color: #F7A4A4;
+  }
+  
+  .pm-window h3 .minimizebutton:hover {
+    color: #F7D0A4;
+  }
+  
+  .pm-window h3 .closebutton:hover + .minimizebutton {
+    color: #D3F5E8 !important;
+  }
+  
+  .message-pm {
+    color: #46806A;
+  }
+  
+  .pm-window h3.pm-notifying {
+    border-color: #803C6F;
+    background: #F3C5EA;
+    color: #803C6F;
+    text-shadow: none;
+  }
+  
+  .pm-window h3.pm-notifying:hover {
+    background: #E5B6DC;
+  }
+  
+  .pm-window h3.pm-notifying small {
+    color: #A4578F;
+  }
+  
+  .pm-window h3.pm-notifying .closebutton, .pm-window h3.pm-notifying .minimizebutton {
+    color: #803C6F;
+  }
+  
+  .pm-window h3.pm-notifying .closebutton:hover {
+    color: #AF3B3B;
+  }
+  
+  .pm-window h3.pm-notifying .minimizebutton:hover {
+    color: #AF813B;
+  }
+  
+
+  #lobby-userlist-user-paul71, #trivia-userlist-user-paul71, #staff-userlist-user-paul71 { 
+    background: url("http://media.pldh.net/pokexycons/716.png") right no-repeat;
+  }
+
+  #lobby-userlist-user-bestbuddy { 
+    background: rgba(244, 244, 244, 0.8) url("http://media.pldh.net/pokexycons/493.png") right no-repeat;
+  }
+
+  #lobby-userlist-user-crossxz14, #jenslab-userlist-user-crossxz14, #staff-userlist-user-crossxz14, #botland-userlist-user-crossxz14 { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/MNKZ7yX.gif") right no-repeat;
+  }
+
+  #lobby-userlist-user-sonybott, #trivia-userlist-user-sonybott { 
+    background: rgba(244, 244, 244, 0.8) url("http://media.pldh.net/pokexycons/398.png") right no-repeat;
+  }
